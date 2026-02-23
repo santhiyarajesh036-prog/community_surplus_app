@@ -1,0 +1,60 @@
+# ===============================
+# OS / System
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE
+# ===============================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ===============================
+# Dart / Flutter
+# ===============================
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+
+# Flutter build outputs
+**/android/**/gradle-wrapper.jar
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/ios/Flutter/.last_build_id
+
+# Generated files
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# ===============================
+# Firebase (VERY IMPORTANT 🔐)
+# ===============================
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+firebase.json
+.firebaserc
+firestore.rules
+firestore.indexes.json
+storage.rules
+
+# Environment variables
+.env
+
+# ===============================
+# Misc
+# ===============================
+*.log
+*.tmp
+*.swp
+*.lock
